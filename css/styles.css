@@ -1,0 +1,73 @@
+:root {
+  /* TYPOGRAPHY */
+  --font-family: "Kumbh Sans", sans-serif;
+  --font-size: 12px;
+
+  /* COLORS */ /* PRIMARY */
+  /* TEXT */
+  --very-dark-desaturated-blue: hsl(238, 29%, 16%);
+  --soft-red: hsl(14, 88%, 65%);
+
+  /* GRADIENT */
+  --soft-violet: hsl(273, 75%, 66%);
+  --soft-blue: hsl(240, 73%, 65%);
+
+  /* COLORS */ /* NEUTRAL */
+  /* TEXT */
+  --very-dark-grayish-blue: hsl(237, 12%, 33%);
+  --dark-grayish-blue: hsl(240, 6%, 50%);
+
+  /* DIVIDERS */
+  --light-grayish-blue: hsl(240, 5%, 91%);
+
+  --max-width: 1200px;
+}
+
+body {
+  padding: 9.25rem 1.5rem 5.3rem;
+  background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  min-height: 100vh;
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+  background-color: #fff;
+  border-radius: 2rem;
+}
+
+.faq__title {
+  margin-top: 0;
+  text-align: center;
+}
+
+.faq-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: thin solid var(--light-grayish-blue);
+}
+
+.accordion__text--hidden {
+  display: none;
+}
+
+.faq-header__title--bold {
+  font-weight: 700;
+}
+
+.container {
+  background-position: 0 -50%;
+  background-repeat: no-repeat;
+  padding: 5rem 1.5rem 3rem;
+  overflow: visible;
+  position: relative;
+}
+
+.container::after {
+  content: url("../images/illustration-woman-online-mobile.svg");
+}

@@ -30,7 +30,7 @@ body {
   font-size: var(--font-size);
   display: grid;
   place-items: center;
-  padding: 3rem 1rem;
+  padding: 8rem 1rem 3rem;
 }
 
 @media screen and (min-width: 840px) {

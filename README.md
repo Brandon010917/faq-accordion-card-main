@@ -1,5 +1,5 @@
 # Desarrollando challenger de Frontend Mentor - FAQ Accordion Card
 
-![Design preview for the FAQ Accordion Card coding challenge](./design/desktop-preview.jpg)
+![Design preview for the FAQ Accordion Card coding challenge](./faq-accordion-card-main.png)
 
 
